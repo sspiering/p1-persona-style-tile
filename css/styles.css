@@ -3,19 +3,93 @@
 /***************/
 
 /* Color Palette */
+.color-1 {
+  background: yellow;
+  border: none;
+}
+
+.color-2 {
+  background: black;
+  border: none;
+}
+
+.color-3 {
+  background: grey;
+  border: none;
+}
+
+.color-4 {
+  background: lightgray;
+  border: none;
+}
+
+.color-5 {
+  background: white;
+}
+
 
 
 /* Textures or Patterns*/
-
+.pattern-1 {
+  background: url("https://s-media-cache-ak0.pinimg.com/736x/a0/02/cd/a002cdfc0bdcb421b6d4f4796c61c9e9.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
 
 /* Imagery */
-
+.imagery-1 {
+  background-size:auto;
+}
 
 /* Icons */
-
+.icon-1 {
+  border: none;
+}
 
 /* Navigation */
+nav li {
+  list-style: none;
+}
 
+nav a:link {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav a:hover {
+  color: lightgray;
+}
+
+/*
+a {
+  color: lightgray;
+  text-decoration: none;
+}
+*/
+
+button {
+  background: lightyellow;
+  border: none;
+  padding: 1em;
+  border-radius: 10px;
+  color: gray;
+}
 
 /* Typography */
+h1, h2, p {
+  font-family: 'Montserrat', sans-serif;
+}
 
+h2 {
+  color: gray;
+}
+
+h3 {
+  color: lightgray;
+}
+
+p {
+  1.25em;
+  line-height: 1.25em;
+}
