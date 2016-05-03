@@ -32,16 +32,37 @@
 /* Textures or Patterns*/
 .pattern-1 {
   background: url("https://s-media-cache-ak0.pinimg.com/736x/a0/02/cd/a002cdfc0bdcb421b6d4f4796c61c9e9.jpg") 50% 50% no-repeat;
-  background-size: cover;
 }
 
+.pattern-2 {
+  background: url("../img/stripes.jpg");
+}
+
+.pattern-3 {
+  background: url("../img/stripes_dribbble.png");
+}
+
+.pattern-4 {
+  background: url("../img/Ocean-Pattern.jpg");
+}
+
+.pattern-1,
+.pattern-2,
+.pattern-3,
+.pattern-4 {
+  background-size: cover;
+}
 /* Imagery */
 .imagery-1 {
   background-size:auto;
 }
 
 /* Icons */
-.icon-1 {
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5 {
   border: none;
 }
 
